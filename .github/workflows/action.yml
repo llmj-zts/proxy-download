@@ -13,6 +13,6 @@ jobs:
             curl -o name.zip https://telegram.org/dl/desktop/win64
         - name: upload file
           uses: actions/upload-artifact@v4
-           with:
-             name: upload
-             path: file.zip
+            with:
+              name: upload
+              path: file.zip
