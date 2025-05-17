@@ -10,7 +10,7 @@ jobs:
         - name: download file
           run: |
             cd upload
-            curl -o name.zip https://telegram.org/dl/desktop/win64
+            curl -o telegram.exe https://td.telegram.org/tx64/tsetup-x64.5.13.1.exe
         - name: upload file
           uses: actions/upload-artifact@v4
           with:
