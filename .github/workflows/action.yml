@@ -10,7 +10,7 @@ jobs:
         - name: download file
           run: |
             cd upload
-            curl -o video.mp4 https://redirector.googlevideo.com/videoplayback?expire=1756634346&ei=isizaJTELZ24mLAPmombmQI&ip=80.187.120.1&id=o-ALpOPhrB2jTM4NtlgX-CRc0opbCGQ_RtRtrXIal8m6N8&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1756612746%2C&mh=Xq&mm=31%2C26&mn=sn-4g5lzned%2Csn-h0jelnes&ms=au%2Conr&mv=m&mvi=3&pl=26&rms=au%2Cau&initcwndbps=1011250&bui=AY1jyLN8vROoRZBTArH5ORTWCKR3RlmMQbqS_ErQD5T64y8p2mNNVytjEoy92ssiQTcyBs_iNXZdPFPa&spc=l3OVKSrQmo9vz-KGw8fkkUxD-8Vzxkb1p2r837VhBwM6Z_6NncJP8O-shGwJJHe1lWxiRZo-3MJUcMNT65-PBo2Qons&vprv=1&svpuc=1&mime=video%2Fmp4&ns=go-bfNUELn_IR2r91n-WfNoQ&rqh=1&gir=yes&clen=114038965&ratebypass=yes&dur=1527.780&lmt=1756285120307718&mt=1756612423&fvip=1&fexp=51331020%2C51552689%2C51565115%2C51565681%2C51580968&c=MWEB&sefc=1&txp=4438534&n=xnKOZKN5otjhxg&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRgIhAPr9iP9EaPFFOSvWac-Gq0kEv4vA87tB-L2yNFy1m2zRAiEA_jRuGAopukpvnmxk7oyofIopwTggaEl-F3jixze6foM%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhAIXX4WUWt9YCwsWo3ktz9-o9xNYH8DbA8mBu9N0gmFjVAiEAleKfREdSw7I3LYcFjjeclPG373BlXFsjH6wG4WLo0QM%3D&pot=MnaQnTy1lThQFpCjv8m-lpKIac73l-jsuRitU6eC7d79P8mUsPx7aGWrBWOOOdTkGH3ElsmyBQNyOwXSHixyjQmIXkwk1pPpclL44CfTje6l5ZFn4lH15wmnouaCu01BunfkC61-tIGjq_I1hC_cDkh3xh1EGNxu
+            curl -o video.mp4 
         - name: upload file
           uses: actions/upload-artifact@v4
           with:
